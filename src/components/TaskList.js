@@ -1,5 +1,5 @@
 import React from 'react';
-import Task from '.Task';
+import Task from './Task';
 
 export default function TaskList({loading, tasks, onPinTask, onArchiveTask}) {
   const events = {
